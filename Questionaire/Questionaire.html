@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Questionaire.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionaire</title>
+</head>
+
+<body>
+    <div>
+        <form action="" method="post"></form>
+        <div class="container">
+            <div class="card-body">
+                <legend class="card-title">Personal Data</legend>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="name">Name</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col">
+                        <label for="surname">Surname</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col">
+                        <label for="contact">Contact information</label><br>
+                        <input type="text">
+                    </div>
+                </div><br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="company">Short description of your company</label>
+                        <br>
+                        <textarea name="company" id="company_desc"></textarea>
+                    </div>
+                </div> <br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="previous">Did your company have a previous website, if so, what do you want to
+                            change
+                            about
+                            it?</label> <br>
+                        <input type="radio" name="Answer" value="yes">Yes <br>
+                        <input type="radio" name="Answer" value="no">No <br>
+                        <label for="Answer">Main changes:</label> <br><br>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Audience">Purpose of the shop:</label><br>
+                        <select name="Audience" id="Audience" size="2">
+                            <option value="OnlineShop">Online Shop</option>
+                            <option value="Advertisement">Advertisement</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="container">
+            <div class="card-body">
+                <legend class="card-title">Personalization preferences</legend><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="colour">Colour pallette:</label><br>
+                        <input type="file">
+                    </div>
+                </div><br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Examples">Webs that you want us to use for inspiration:</label><br>
+                        <textarea name="Examples" id="WEB"></textarea>
+                    </div>
+                    <div class="col">
+                        <label for="Sections">How do you want the site to be divided?:</label><br>
+                        <textarea name="Short_Description" id="Sections"></textarea><br><br>
+                    </div>
+                </div><br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Content">Do you have any content you want us to use, if not what content should we
+                            use?</label><br>
+                        <input type="radio" value="Yes" name="Content">Yes<br>
+                        <input type="radio" value="No" name="Content">No<br>
+                        <input type="file">
+                    </div>
+                </div><br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Paying_Methods">Paying Methods</label><br>
+                        <input type="radio" name="Payment">Paypal<br>
+                        <input type="radio" name="Payment">Bizum<br>
+                        <input type="radio" name="Payment">Bank transfer
+                    </div>
+                </div><br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Marketing">Do you have any marketing strategies that we should take into
+                            acount?</label><br>
+                        <textarea name="Marketing" id="Marketing"></textarea>
+                    </div>
+                    <div class="col">
+                        <label for="Marketing">Is there anything that you DON'T want to be added to the
+                            website?</label><br>
+                        <textarea name="Marketing" id="Marketing"></textarea>
+                    </div>
+                    <div class="col">
+                        <label for="Addtions">Are there any additional things that you want to be included in the
+                            website
+                            that
+                            weren't covered in the questionnaire?</label><br>
+                        <textarea name="Addtions" id="Additions"></textarea>
+                    </div>
+                </div> <br><br>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <label for="Deadtime">Deadline</label><br>
+                        <input type="date">
+                    </div>
+                    <div class="col">
+                        <label for="budget">Budget</label><br>
+                        <input type="text">
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
